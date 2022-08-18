@@ -2,7 +2,6 @@ import { Box, Flex, Stack, Image, StackDivider, Text } from '@chakra-ui/react';
 import React from 'react';
 import ContactDetails from '../ContactDetails';
 import Logo from '../Logo';
-import  newLogo from '../../../../public/lavage-logo.png'
 import { Copyright } from './Copyright';
 import { LinkGrid } from './LinkGrid';
 import { SocialMediaLinks } from './SocialMediaLinks';
