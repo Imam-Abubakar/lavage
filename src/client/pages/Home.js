@@ -18,6 +18,7 @@ import Testimonials from '../components/Testimonials';
 import Location from '../components/Location';
 import FAQ from '../components/FAQ';
 import Offers from '../components/Offers';
+import homeImg from '../../../public/home.jpg'
 
 const squareVariants = {
   initial: { scale: 1, transition: { type: 'tween', duration: 0.4 } },
@@ -99,9 +100,7 @@ function Home() {
             top={'0'}
           ></Box>
           <Image
-            src={
-              'https://images.unsplash.com/photo-1451933335233-c41672c8f378?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80'
-            }
+            src={homeImg}
             alt='Alternate Text'
             width={'100vw'}
             height={['100vw', '80vw', '80vw', '50vw']}

@@ -10,7 +10,7 @@ const theme = extendTheme({
   colors: {
     lavage: {
       1: '#ffffff',
-      2: '#626365',
+      2: '#d7ad0e',
       3: '#929292',
       4: '#C7EDE4',
       5: '#000000',
