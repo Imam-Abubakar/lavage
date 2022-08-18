@@ -3,6 +3,7 @@ import {
   Box,
   Flex,
   Text,
+  Image,
   Stack,
   Center,
   useMediaQuery,
@@ -36,14 +37,19 @@ const NavBar = (props) => {
         p={['4', '8']}
         bg={'transparent'}
         color={'white'}
-        bg={isOpen && isSmallScreen ? 'lavage.2' : 'transparent'}
+        bg={isOpen && isSmallScreen ? 'gray.600' : 'transparent'}
         alignSelf={'center'}
         zIndex={100}
         mx={'auto'}
         position={'absolute'}
         top={'0'}
       >
-        <Logo />
+        <Image
+            src='./lavage-logo.png'
+            alt='LOGO'
+            width={'20vw'}
+            height={['9vw']}
+          />
         <MenuToggle toggle={toggle} isOpen={isOpen} />
         <MenuLinks isOpen={isOpen} toggle={toggle} />
       </Flex>
@@ -150,7 +156,7 @@ const MenuLinks = ({ isOpen, ...rest }) => {
           </Flex>
         </MenuItem>
         <Center display={{ base: 'flex', lg: 'none' }}>
-          <Box w={'200px'} h={'200px'} backgroundColor={'lavage.2'}>
+          <Box w={'200px'} h={'200px'} backgroundColor={'gray.600'}>
             <Center
               alignSelf={'baseline'}
               flexDirection={'column'}
@@ -158,7 +164,12 @@ const MenuLinks = ({ isOpen, ...rest }) => {
               mt={'8rem'}
               gap={'1rem'}
             >
-              <Logo />
+             <Image
+            src='./lavage-logo.png'
+            alt='LOGO'
+            width={'20vw'}
+            height={['9vw']}
+          />
               <Link
                 to='/terms'
                 fontSize='sx'

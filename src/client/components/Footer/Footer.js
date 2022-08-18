@@ -31,10 +31,10 @@ export const Footer = () => (
             letterSpacing={'0.7rem'}
           >
             <Image
-            src='../../../../public/lavage-logo.png'
-            alt='Alternate Text'
-            width={'20px'}
-            height={['10px']}
+            src='./lavage-logo.png'
+            alt='LOGO'
+            width={'20vw'}
+            height={['9vw']}
           />
           </Text>
         </Box>
