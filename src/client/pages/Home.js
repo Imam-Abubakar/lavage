@@ -86,7 +86,6 @@ function Home() {
 
   return (
     <>
-      <Offers />
 
       <Center>
         <Box>

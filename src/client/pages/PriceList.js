@@ -41,6 +41,7 @@ const PriceList = () => {
         pb={'10rem'}
       >
         <VStack textColor={'black'} alignItems={'center'}>
+          {/*}
           <Text
             fontWeight={'600'}
             fontSize={['xl', '2xl', '4xl']}
@@ -76,6 +77,7 @@ const PriceList = () => {
               </ListItem>
             ))}
           </List>
+              */}
           <Text
             fontWeight={'600'}
             fontSize={['xl', '2xl', '4xl']}

@@ -88,8 +88,7 @@ const FAQ = () => {
                       fontSize={['xs', 'sm', 'md']}
                       fontSize={['xs', 'md']}
                     >
-                      Yes, we are located on 34 Station Approach, Br2 7ej,
-                      Hayes.
+                      Yes, we are located on 268 Southwark Park Road SE16 3RN
                     </Text>
                   </AccordionPanel>
                 </AccordionItem>

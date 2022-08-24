@@ -47,8 +47,8 @@ const NavBar = (props) => {
         <Image
             src='./lavage-logo.png'
             alt='LOGO'
-            width={'20vw'}
-            height={['9vw']}
+            width={'15vw'}
+            height={['6vw']}
           />
         <MenuToggle toggle={toggle} isOpen={isOpen} />
         <MenuLinks isOpen={isOpen} toggle={toggle} />
@@ -167,8 +167,8 @@ const MenuLinks = ({ isOpen, ...rest }) => {
              <Image
             src='./lavage-logo.png'
             alt='LOGO'
-            width={'20vw'}
-            height={['9vw']}
+            width={'15vw'}
+            height={['6vw']}
           />
               <Link
                 to='/terms'
