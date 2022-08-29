@@ -8,7 +8,7 @@ import {
   useMediaQuery,
   Img,
 } from '@chakra-ui/react';
-import lavage from '../../../public/lavage.png';
+import lavage from '../../../public/lavage.jpg';
 import Button from './HOC/Button.HOC';
 import { Link, NavigationType, useNavigate } from 'react-router-dom';
 

@@ -3,7 +3,7 @@ import React from 'react';
 import ContactDetails from '../ContactDetails';
 import { Copyright } from './Copyright';
 import { LinkGrid } from './LinkGrid';
-import lavage from '../../../../public/lavage.png';
+import lavage from '../../../../public/lavage.jpg';
 import { SocialMediaLinks } from './SocialMediaLinks';
 
 export const Footer = () => (
