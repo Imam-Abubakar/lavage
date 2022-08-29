@@ -8,7 +8,6 @@ import {
   useMediaQuery,
   Img,
 } from '@chakra-ui/react';
-import Logo from './Logo2';
 import Button from './HOC/Button.HOC';
 import { Link, NavigationType, useNavigate } from 'react-router-dom';
 
@@ -44,7 +43,7 @@ const NavBar = (props) => {
         position={'absolute'}
         top={'0'}
       >
-        <Img
+        <img
             src='./lavage.png'
             alt='LOGO'
             width={'15vw'}
