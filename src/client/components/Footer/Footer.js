@@ -3,6 +3,7 @@ import React from 'react';
 import ContactDetails from '../ContactDetails';
 import { Copyright } from './Copyright';
 import { LinkGrid } from './LinkGrid';
+import lavage from '../../../public/lavage.png';
 import { SocialMediaLinks } from './SocialMediaLinks';
 
 export const Footer = () => (
@@ -28,8 +29,8 @@ export const Footer = () => (
             mx={['auto']}
             letterSpacing={'0.7rem'}
           >
-            <img
-            src="./lavage.png"
+            <Img
+            src={lavage}
             alt='LOGO'
             width={'16vw'}
             height={['7vw']}

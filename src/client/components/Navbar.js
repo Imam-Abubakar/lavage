@@ -8,6 +8,7 @@ import {
   useMediaQuery,
   Img,
 } from '@chakra-ui/react';
+import lavage from '../../../public/lavage.png';
 import Button from './HOC/Button.HOC';
 import { Link, NavigationType, useNavigate } from 'react-router-dom';
 
@@ -44,7 +45,7 @@ const NavBar = (props) => {
         top={'0'}
       >
         <Img
-            src='./lavage.jpg'
+            src={lavage}
             alt='LOGO'
             width={'15vw'}
             height={['6vw']}
@@ -164,7 +165,7 @@ const MenuLinks = ({ isOpen, ...rest }) => {
               gap={'1rem'}
             >
              <Img
-            src='./lavage.jpg'
+            src={lavage}
             alt='LOGO'
             width={'15vw'}
             height={['6vw']}
