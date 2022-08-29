@@ -43,8 +43,8 @@ const NavBar = (props) => {
         position={'absolute'}
         top={'0'}
       >
-        <img
-            src='./lavage.png'
+        <Img
+            src='./lavage.jpg'
             alt='LOGO'
             width={'15vw'}
             height={['6vw']}
@@ -164,7 +164,7 @@ const MenuLinks = ({ isOpen, ...rest }) => {
               gap={'1rem'}
             >
              <Img
-            src='./lavage.png'
+            src='./lavage.jpg'
             alt='LOGO'
             width={'15vw'}
             height={['6vw']}
