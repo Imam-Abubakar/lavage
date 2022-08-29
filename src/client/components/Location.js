@@ -40,8 +40,8 @@ const Location = () => {
             maxW={['70vw', '60vw', '40vw', '20vw']}
             fontWeight={'400'}
           >
-            We Provide Our Collection & Delivery Service In All of Bromley and
-            Some Areas in Croydon and Lewisham. Get in contact for more
+            We Provide Our Collection & Delivery Service In All of Bermondsey and
+            Surrounding areas. Get in contact for more
             information.
           </Text>
           <Link to='/book-collection'>

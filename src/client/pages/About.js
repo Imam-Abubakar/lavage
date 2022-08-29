@@ -25,7 +25,7 @@ const About = () => {
               padding={['1rem', '1rem', '2rem', '3rem']}
               maxW={'35rem'}
             >
-              With almost 30 years of dry cleaning experince our team aims to
+              With almost 30 years of dry cleaning experience our team aims to
               provide the best experince possible for our customers. With our
               expert tailor we make sure each customers is left satisfied.
             </Text>
@@ -391,7 +391,7 @@ const About = () => {
                   padding={['1rem', '1rem', '2rem', '3rem']}
                   maxW={'35rem'}
                 >
-                  We have been in the area of Bromley for over 5 years starting
+                  We have been in the area of Bermondsey for over 5 years starting
                   off with Eden Park Dry Cleaners in Eden Park and are now
                   looking to provide the best service possible in Hayes.
                 </Text>

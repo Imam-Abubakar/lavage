@@ -20,7 +20,7 @@ export const SocialMediaLinks = (props) => (
     />
     <IconButton
       as='a'
-      href='https://www.facebook.com/profile.php?id=100074268141824'
+      href='https://web.facebook.com/lavage.dc'
       aria-label='Facebook'
       _active={{
         bgColor: 'gray',

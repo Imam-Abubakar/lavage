@@ -1,7 +1,7 @@
 import { Box, Flex, Stack, Image, StackDivider, Text } from '@chakra-ui/react';
 import React from 'react';
 import ContactDetails from '../ContactDetails';
-import Logo from '../Logo';
+import Logo from './lavage.png';
 import { Copyright } from './Copyright';
 import { LinkGrid } from './LinkGrid';
 import { SocialMediaLinks } from './SocialMediaLinks';
@@ -30,10 +30,10 @@ export const Footer = () => (
             letterSpacing={'0.7rem'}
           >
             <Image
-            src='./lavage-logo.png'
+            src="./lavage.png"
             alt='LOGO'
-            width={'20vw'}
-            height={['9vw']}
+            width={'16vw'}
+            height={['7vw']}
           />
           </Text>
         </Box>

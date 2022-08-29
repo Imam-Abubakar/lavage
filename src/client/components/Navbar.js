@@ -45,7 +45,7 @@ const NavBar = (props) => {
         top={'0'}
       >
         <Image
-            src='./lavage-logo.png'
+            src='./lavage.png'
             alt='LOGO'
             width={'15vw'}
             height={['6vw']}
@@ -165,7 +165,7 @@ const MenuLinks = ({ isOpen, ...rest }) => {
               gap={'1rem'}
             >
              <Image
-            src='./lavage-logo.png'
+            src='./lavage.png'
             alt='LOGO'
             width={'15vw'}
             height={['6vw']}

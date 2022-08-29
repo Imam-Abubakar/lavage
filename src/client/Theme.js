@@ -10,7 +10,7 @@ const theme = extendTheme({
   colors: {
     lavage: {
       1: '#ffffff',
-      2: '#d7ad0e',
+      2: '#f7c202',
       3: '#929292',
       4: '#C7EDE4',
       5: '#000000',
@@ -23,8 +23,8 @@ const theme = extendTheme({
     global: {
       'html, body': {
         // fontFamily: 'sans',
-        background: '#626365',
-        color: '#626365',
+        background: '#3d3d3f',
+        color: '#3d3d3f',
       },
     },
   },
