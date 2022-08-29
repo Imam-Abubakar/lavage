@@ -3,10 +3,10 @@ import {
   Box,
   Flex,
   Text,
-  Image,
   Stack,
   Center,
   useMediaQuery,
+  Img,
 } from '@chakra-ui/react';
 import Logo from './Logo2';
 import Button from './HOC/Button.HOC';
@@ -44,7 +44,7 @@ const NavBar = (props) => {
         position={'absolute'}
         top={'0'}
       >
-        <Image
+        <Img
             src='./lavage.png'
             alt='LOGO'
             width={'15vw'}
@@ -164,7 +164,7 @@ const MenuLinks = ({ isOpen, ...rest }) => {
               mt={'8rem'}
               gap={'1rem'}
             >
-             <Image
+             <Img
             src='./lavage.png'
             alt='LOGO'
             width={'15vw'}

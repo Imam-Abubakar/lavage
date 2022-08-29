@@ -1,4 +1,4 @@
-import { Box, Flex, Stack, Image, StackDivider, Text } from '@chakra-ui/react';
+import { Box, Flex, Stack, Img, StackDivider, Text } from '@chakra-ui/react';
 import React from 'react';
 import ContactDetails from '../ContactDetails';
 import Logo from './lavage.png';
@@ -29,7 +29,7 @@ export const Footer = () => (
             mx={['auto']}
             letterSpacing={'0.7rem'}
           >
-            <Image
+            <Img
             src="./lavage.png"
             alt='LOGO'
             width={'16vw'}
