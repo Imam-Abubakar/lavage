@@ -55,10 +55,10 @@ const BookCollection = () => {
   const sendEmail = (formData) => {
     emailjs
       .send(
-        'service_z3pbp0h',
-        'template_2nel7sv',
+        'service_30fw45t',
+        'template_rsq5xbv',
         formData,
-        'user_bRurspjYqg9CqaFExCU8l'
+        'R_qYD6ZpGSasSuUQp'
       )
       .then(
         (result) => {

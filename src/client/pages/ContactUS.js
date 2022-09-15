@@ -41,10 +41,10 @@ const BookCollection = () => {
   const sendEmail = (formData) => {
     emailjs
       .send(
-        'service_z3pbp0h',
-        'template_2nel7sv',
+        'service_30fw45t',
+        'template_hp9oxo9',
         formData,
-        'user_bRurspjYqg9CqaFExCU8l'
+        'R_qYD6ZpGSasSuUQp'
       )
       .then(
         (result) => {
@@ -233,11 +233,10 @@ const BookCollection = () => {
                     fontSize={'2xl'}
                     mb={'1.5rem'}
                   >
-                    Thanks for your order
+                    Thanks for reaching out
                   </Heading>
                   <Text textAlign={'center'} mx={'auto'}>
-                    Your order have been place our person will reach out to you
-                    soon.
+                    We will reach out to you soon.
                   </Text>
                 </ModalBody>
               </ModalContent>
