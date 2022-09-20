@@ -160,6 +160,7 @@ function Home() {
           flexDirection={'column'}
           pt={{ base: '800px', sm: '900px', md: '800px', xl: '30px' }}
         >
+          {/*}
           <Text
             fontWeight={'500'}
             fontSize={['2xl', '3xl', '5xl']}
@@ -181,6 +182,7 @@ function Home() {
             Dont take our words for it, here's what others have to say.
           </Text>
           <Testimonials />
+          */}
           <Center>
             <FAQ />
           </Center>
