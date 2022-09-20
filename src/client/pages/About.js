@@ -380,11 +380,11 @@ const About = () => {
                   maxW={'35rem'}
                 >
                   Our team has ammassed almost 30 years of experince in this
-                  field. With having our other dry cleaning businesses in
-                  Spitalfields, Shoreditch, Shepherds Bush, Eden Park and now
-                  Hayes we can deal with most queries or jobs a customer
+                  field. With having our other dry cleaning business in
+                  Shoreditch, Bishopgate, Spitalfields, Shepherds Bush, Eden Park, Hayes & now Bermondsey we can deal with most queries or jobs a customer
                   requires.
                 </Text>
+                {/*}
                 <Text
                   textAlign={'center'}
                   fontSize={['sm', 'md', 'lg']}
@@ -395,6 +395,7 @@ const About = () => {
                   off with Eden Park Dry Cleaners in Eden Park and are now
                   looking to provide the best service possible in Hayes.
                 </Text>
+  */}
               </Flex>{' '}
             </Center>
             <Center
