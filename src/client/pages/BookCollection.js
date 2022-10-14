@@ -28,13 +28,10 @@ import React, { useState } from 'react';
 import { Controller, useForm } from 'react-hook-form';
 import DatePicker from 'react-datepicker';
 import emailjs from '@emailjs/browser';
-
 import 'react-datepicker/dist/react-datepicker.css';
 import '../styles/date-picker.css';
-
 import setHours from 'date-fns/setHours';
 import setMinutes from 'date-fns/setMinutes';
-
 import Layout from '../components/HOC/Layout.HOC';
 
 const BookCollection = () => {
