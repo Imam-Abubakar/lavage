@@ -91,7 +91,7 @@ export const ratelistData = [
       },
       {
         name: 'Polo shirts/ T-shirts',
-        price: '£3.25',
+        price: '£3.50',
       },
     ],
   },

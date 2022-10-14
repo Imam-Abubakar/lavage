@@ -208,6 +208,7 @@ const BookCollection = () => {
                   {errors.address && errors.address.message}
                 </FormErrorMessage>
               </FormControl>
+              {/*
               <FormControl maxW={'30rem'} isRequired isInvalid={errors.pincode}>
                 <FormLabel
                   htmlFor='pincode'
@@ -236,6 +237,7 @@ const BookCollection = () => {
                   {errors.pincode && errors.pincode.message}
                 </FormErrorMessage>
               </FormControl>
+                */}
             </Flex>
           </VStack>
           <VStack

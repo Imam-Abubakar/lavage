@@ -32,7 +32,7 @@ function App() {
         <Route path='/contact' element={<ContactUS />} />
         <Route path='/book-collection' element={<BookCollection />} />
         <Route path='/terms' element={<Terms />} />
-        <Route component={<NotFound />} />
+        <Route path='*' element={<Home />} />
       </Routes>
       <Footer />
     </ChakraProvider>
