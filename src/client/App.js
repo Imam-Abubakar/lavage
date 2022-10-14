@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route, Navigate, Redirect } from 'react-router-dom';
 import { Box, ChakraProvider } from '@chakra-ui/react';
 
 import Navbar from './components/Navbar';
@@ -26,8 +26,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='*' element={<Navigate replace={true} to='/' />} />
-        <Route path='/home' element={<Navigate replace={true} to='/' />} />
+        <Route path='*' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/price-list' element={<PriceList />} />
         <Route path='/contact' element={<ContactUS />} />
