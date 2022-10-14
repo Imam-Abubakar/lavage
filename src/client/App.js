@@ -26,13 +26,14 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='*' element={<Navigate replace to='/' />} />
         <Route path='/home' element={<Navigate replace to='/' />} />
         <Route path='/about' element={<About />} />
         <Route path='/price-list' element={<PriceList />} />
         <Route path='/contact' element={<ContactUS />} />
         <Route path='/book-collection' element={<BookCollection />} />
         <Route path='/terms' element={<Terms />} />
-        <Route path='*' element={<Home />} />
+        {/*<Route path='*' element={<Home />} />*/}
       </Routes>
       <Footer />
     </ChakraProvider>
