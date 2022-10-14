@@ -39,7 +39,7 @@ const ContactDetails = (props) => {
           fontSize={{ base: 'xs', md: 'md' }}
           fontWeight={'400'}
         >
-          info@lavage.co.uk
+          info@lavagedryclean.co.uk
         </Text>
       </HStack>
     </VStack>
